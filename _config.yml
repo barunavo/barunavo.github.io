@@ -1,4 +1,4 @@
-name: Barunavo Pal, Software Engineer (DevOps)
+#name: Barunavo Pal, Software Engineer (DevOps)
 markdown: kramdown
 
-permalink: /:blog/:year/:month/:day/:title:1_blog
+permalink: /blog/:year/:month/:day/:title:
