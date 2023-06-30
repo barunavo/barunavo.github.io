@@ -48,9 +48,39 @@ article h2 {
   color: #888;
 }
 
+figure {
+  display: inline-block;
+  margin: 20px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+figure img {
+  vertical-align: top;
+}
+
+figure figcaption {
+  text-align: center;
+}
+
+
+figcaption {
+  margin: 10px 0 0 0;
+  background-color: black;
+  color: white;
+  font-style: italic;
+  font-variant: small-caps;
+  font-family: Arial;
+  font-weight: bold;
+  padding: 1px;
+  text-align: center;
+}
+
 footer {
   background-color: #333;
   color: #fff;
   text-align: center;
   padding: 1rem;
 }
+
