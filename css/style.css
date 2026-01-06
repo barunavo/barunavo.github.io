@@ -2,21 +2,24 @@
    Root Variables & Reset
    =========================== */
 :root {
-  --primary-color: #2563eb;
-  --primary-dark: #1e40af;
-  --secondary-color: #10b981;
-  --accent-color: #f59e0b;
-  --text-primary: #1f2937;
-  --text-secondary: #6b7280;
-  --text-light: #9ca3af;
-  --bg-primary: #ffffff;
-  --bg-secondary: #f9fafb;
-  --bg-dark: #111827;
-  --border-color: #e5e7eb;
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  --primary-color: #d18a47;
+  --primary-dark: #b87333;
+  --secondary-color: #c9975b;
+  --accent-color: #e6b872;
+  --gold-color: #d4a574;
+  --text-primary: #cccccc;
+  --text-secondary: #9d9d9d;
+  --text-light: #6e6e6e;
+  --bg-primary: #1e1e1e;
+  --bg-secondary: #252526;
+  --bg-dark: #1a1a1a;
+  --bg-darker: #0d1117;
+  --border-color: #3e3e42;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.6);
+  --shadow-orange: 0 8px 20px -5px rgba(209, 138, 71, 0.2);
   --radius-sm: 0.375rem;
   --radius-md: 0.5rem;
   --radius-lg: 0.75rem;
@@ -91,11 +94,12 @@ a:hover {
    Header & Navigation
    =========================== */
 .main-header {
-  background-color: var(--bg-primary);
+  background-color: var(--bg-dark);
   box-shadow: var(--shadow-md);
   position: sticky;
   top: 0;
   z-index: 100;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .navbar {
@@ -110,7 +114,7 @@ a:hover {
 .nav-brand a {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--text-primary);
+  color: var(--accent-color);
   text-decoration: none;
 }
 
@@ -138,7 +142,7 @@ a:hover {
    Hero Section
    =========================== */
 .hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0d1117 0%, #1a1d24 50%, #2a2520 100%);
   color: white;
   padding: 6rem 2rem;
   text-align: center;
@@ -235,34 +239,39 @@ a:hover {
 
 .btn-primary {
   background-color: var(--primary-color);
-  color: white;
+  color: #1e1e1e;
+  font-weight: 700;
 }
 
 .btn-primary:hover {
   background-color: var(--primary-dark);
   transform: translateY(-2px);
-  box-shadow: var(--shadow-lg);
+  box-shadow: var(--shadow-orange);
 }
 
 .btn-secondary {
   background-color: var(--secondary-color);
-  color: white;
+  color: #1e1e1e;
+  font-weight: 700;
 }
 
 .btn-secondary:hover {
-  background-color: #059669;
+  background-color: var(--primary-dark);
   transform: translateY(-2px);
+  box-shadow: var(--shadow-orange);
 }
 
 .btn-outline {
   background-color: transparent;
-  color: white;
-  border: 2px solid white;
+  color: var(--accent-color);
+  border: 2px solid var(--primary-color);
 }
 
 .btn-outline:hover {
-  background-color: white;
-  color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: #1e1e1e;
+  border-color: var(--primary-color);
+  box-shadow: var(--shadow-orange);
 }
 
 .btn-sm {
@@ -313,7 +322,8 @@ a:hover {
 
 .feature-card:hover {
   transform: translateY(-8px);
-  box-shadow: var(--shadow-xl);
+  box-shadow: var(--shadow-orange);
+  border-color: var(--primary-color);
 }
 
 .card-icon {
@@ -395,7 +405,7 @@ a:hover {
    Page Header
    =========================== */
 .page-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0d1117 0%, #1a1d24 50%, #2a2520 100%);
   color: white;
   text-align: center;
   padding: 4rem 2rem;
@@ -439,7 +449,7 @@ a:hover {
 .filter-btn:hover,
 .filter-btn.active {
   background-color: var(--primary-color);
-  color: white;
+  color: #1e1e1e;
   border-color: var(--primary-color);
 }
 
@@ -460,8 +470,29 @@ a:hover {
 }
 
 .project-card:hover {
-  box-shadow: var(--shadow-xl);
+  box-shadow: var(--shadow-orange);
   transform: translateY(-4px);
+  border-color: var(--primary-color);
+}
+
+.project-card.featured {
+  border: 2px solid var(--primary-color);
+  background: linear-gradient(135deg, rgba(209, 138, 71, 0.05), rgba(212, 165, 116, 0.03));
+  position: relative;
+}
+
+.project-card.featured::before {
+  content: "⭐ FEATURED PROJECT";
+  position: absolute;
+  top: -12px;
+  left: 20px;
+  background: linear-gradient(135deg, #d18a47, #c9975b);
+  color: #1e1e1e;
+  padding: 0.25rem 1rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .project-header {
@@ -481,12 +512,13 @@ a:hover {
 }
 
 .tag {
-  background-color: var(--bg-secondary);
-  color: var(--primary-color);
+  background-color: #2d2d30;
+  color: var(--accent-color);
   padding: 0.25rem 0.75rem;
   border-radius: var(--radius-sm);
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 600;
+  border: 1px solid rgba(209, 138, 71, 0.3);
 }
 
 .project-description {
@@ -867,7 +899,7 @@ blockquote {
 }
 
 .post-image-placeholder {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2a2520 0%, #3a3530 100%);
   height: 200px;
   display: flex;
   align-items: center;
@@ -972,7 +1004,7 @@ blockquote {
 
 .footer-section h3,
 .footer-section h4 {
-  color: white;
+  color: var(--accent-color);
   margin-bottom: 1rem;
 }
 
@@ -995,7 +1027,7 @@ blockquote {
 }
 
 .footer-links a:hover {
-  color: white;
+  color: var(--primary-color);
   padding-left: 5px;
 }
 

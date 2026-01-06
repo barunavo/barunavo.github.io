@@ -40,16 +40,50 @@
         <!-- Filter/Categories -->
         <div class="project-filters">
           <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="web">Web Development</button>
           <button class="filter-btn" data-filter="devops">DevOps</button>
           <button class="filter-btn" data-filter="cloud">Cloud</button>
           <button class="filter-btn" data-filter="automation">Automation</button>
           <button class="filter-btn" data-filter="opensource">Open Source</button>
-          <button class="filter-btn" data-filter="web">Web Development</button>
         </div>
 
         <!-- Projects Grid -->
         <div class="projects-grid">
           
+          <!-- Featured Project - Docto-Care -->
+          <div class="project-card featured" data-category="web cloud">
+            <div class="project-header">
+              <h3>Docto-Care - Digital Clinic Management System</h3>
+              <div class="project-tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">Dart</span>
+                <span class="tag">Supabase</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Healthcare</span>
+              </div>
+            </div>
+            <p class="project-description">
+              <strong>Comprehensive, cloud-based clinic management system for healthcare professionals.</strong> 
+              Streamlines patient record management, prescription generation with PDF export, appointment scheduling with multi-channel reminders (WhatsApp, SMS, Email), and digital signature capture. 
+              Features secure authentication, multi-chamber support, prescription history with search capabilities, and real-time data synchronization across devices.
+            </p>
+            <div class="project-meta">
+              <span class="meta-item">🏥 Full-stack Healthcare SaaS</span>
+              <span class="meta-item">🔐 Production-ready with RLS</span>
+              <span class="meta-item">📱 Web, iOS & Android</span>
+            </div>
+            <p style="margin-top: 1rem; color: var(--text-secondary); font-size: 0.9rem;">
+              <strong>Key Features:</strong> Digital prescriptions with drawing canvas • Multi-chamber support • Patient database with autocomplete • Calendar-based appointment scheduling • PDF generation with custom branding • Real-time cloud sync with Supabase • Row-level security policies • Responsive design for all devices
+            </p>
+            <p style="margin-top: 0.75rem; color: var(--text-secondary); font-size: 0.9rem;">
+              <strong>Tech Highlights:</strong> Provider pattern for state management • Repository pattern for data abstraction • Platform-specific implementations • Type-safe with null-safety • Continuous deployment via Netlify
+            </p>
+            <div class="project-links">
+              <a href="https://docto-care.netlify.app/" class="btn btn-sm btn-primary" target="_blank">🚀 Live Demo</a>
+              <a href="https://github.com/barunavo" class="btn btn-sm btn-outline" target="_blank">View on GitHub</a>
+            </div>
+          </div>
+
           <!-- Example Project 1 - You can add your actual projects -->
           <div class="project-card" data-category="devops cloud">
             <div class="project-header">
@@ -203,7 +237,7 @@
     <div class="footer-content">
       <div class="footer-section">
         <h3>Barunavo Pal</h3>
-        <p>Platform DevOps Engineer | Cloud Infrastructure Specialist</p>
+        <p>Platform Engineer | Cloud Infrastructure Specialist</p>
         <p>Berlin, Germany</p>
       </div>
       <div class="footer-section">
