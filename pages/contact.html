@@ -1,43 +1,218 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Me</title>
+  <meta name="description" content="Contact Barunavo Pal - Get in touch via email, LinkedIn, GitHub, or social media">
+  <title>Contact | Barunavo Pal</title>
   <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Contact</h1>
-    <nav>
-      <ul>
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="nav-brand">
+        <a href="../index.html">Barunavo Pal</a>
+      </div>
+      <ul class="nav-menu">
         <li><a href="../index.html">Home</a></li>
-        <li><a href="../blogs/blog-post-0.html">Posts</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="resume.html">CV</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="techstack.html">Tech Stack</a></li>
+        <li><a href="../blogs/index.html">Blog</a></li>
+        <li><a href="worldview.html">Worldview</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
       </ul>
     </nav>
   </header>
-  
-  <section>
-    <h2>Contact Me</h2>
-    <p>Feel free to get in touch with me using any of the following methods:</p>
-    <hr>
 
-    <ul>
-        <br />
-        <li><a href="https://www.linkedin.com/in/barunavo-pal" target="_blank">LinkedIn</a></li>
-        <li><a href="https://github.com/barunavo" target="_blank">GitHub</a></li>
-        <li><a href="https://medium.com/@pal.barunavo412" target="_blank">Medium</a></li>
-        <li><a href="https://www.youtube.com/@BarunavoSumana" target="_blank">YouTube</a></li>
-        <li>Email: <a href="mailto:barunavopal@outlook.com">barunavopal@outlook.com</a></li>
-        <br />
-    </ul>
-    <hr>
-  </section>
-  
-  <footer>
-    <p>&copy; 2023 Barunavo Pal. All rights reserved.</p>
+  <main>
+    <section class="section page-header">
+      <div class="container">
+        <h1 class="page-title">Let's Connect</h1>
+        <p class="page-subtitle">I'm always open to interesting conversations, collaborations, and opportunities</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="resume-container">
+          
+          <!-- Introduction -->
+          <div class="resume-block" style="text-align: center;">
+            <h2 class="section-title">Get in Touch</h2>
+            <p style="font-size: 1.125rem; max-width: 700px; margin: 0 auto 2rem; color: var(--text-secondary);">
+              Whether you want to discuss DevOps best practices, collaborate on a project, explore job opportunities, 
+              or just have a friendly chat about technology and culture, I'd love to hear from you!
+            </p>
+          </div>
+
+          <!-- Contact Methods Grid -->
+          <div class="cards-grid" style="margin-bottom: 3rem;">
+            
+            <!-- Email -->
+            <div class="feature-card" style="text-align: center;">
+              <div class="card-icon">📧</div>
+              <h3>Email</h3>
+              <p>For professional inquiries, collaboration proposals, or general questions</p>
+              <a href="mailto:barunavopal@outlook.com" class="btn btn-primary" style="margin-top: 1rem;">
+                barunavopal@outlook.com
+              </a>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="feature-card" style="text-align: center;">
+              <div class="card-icon">💼</div>
+              <h3>LinkedIn</h3>
+              <p>Connect with me professionally, view my career history, and stay updated on my work</p>
+              <a href="https://www.linkedin.com/in/barunavo-pal" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">
+                View Profile
+              </a>
+            </div>
+
+            <!-- GitHub -->
+            <div class="feature-card" style="text-align: center;">
+              <div class="card-icon">💻</div>
+              <h3>GitHub</h3>
+              <p>Check out my code, projects, open-source contributions, and technical work</p>
+              <a href="https://github.com/barunavo" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">
+                Follow on GitHub
+              </a>
+            </div>
+
+            <!-- Medium -->
+            <div class="feature-card" style="text-align: center;">
+              <div class="card-icon">📝</div>
+              <h3>Medium</h3>
+              <p>Read my technical articles, tutorials, and thought pieces on technology</p>
+              <a href="https://medium.com/@pal.barunavo412" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">
+                Read on Medium
+              </a>
+            </div>
+
+            <!-- YouTube -->
+            <div class="feature-card" style="text-align: center;">
+              <div class="card-icon">🎥</div>
+              <h3>YouTube</h3>
+              <p>Watch videos, vlogs, and content from my personal channel</p>
+              <a href="https://www.youtube.com/@BarunavoSumana" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">
+                Subscribe
+              </a>
+            </div>
+
+            <!-- Location -->
+            <div class="feature-card" style="text-align: center;">
+              <div class="card-icon">📍</div>
+              <h3>Location</h3>
+              <p>Currently based in Berlin, Germany. Working remotely and open to global collaborations</p>
+              <div style="margin-top: 1rem; color: var(--text-secondary); font-weight: 600;">
+                🇩🇪 Berlin, Germany
+              </div>
+            </div>
+
+          </div>
+
+          <!-- What I'm Open To -->
+          <div class="resume-block">
+            <h2 class="resume-heading">💬 What I'm Open To</h2>
+            <div class="skills-grid">
+              <div class="tech-item">
+                <div class="tech-icon">🤝</div>
+                <h3>Professional Collaboration</h3>
+                <p>Consulting, contract work, or full-time opportunities in DevOps, cloud infrastructure, and platform engineering</p>
+              </div>
+
+              <div class="tech-item">
+                <div class="tech-icon">🎤</div>
+                <h3>Speaking & Workshops</h3>
+                <p>Tech talks, conference presentations, workshops on DevOps, Kubernetes, cloud architecture, and CI/CD</p>
+              </div>
+
+              <div class="tech-item">
+                <div class="tech-icon">✍️</div>
+                <h3>Technical Writing</h3>
+                <p>Guest blog posts, technical documentation, case studies, and collaborative content creation</p>
+              </div>
+
+              <div class="tech-item">
+                <div class="tech-icon">🎓</div>
+                <h3>Mentorship</h3>
+                <p>Guiding junior engineers, career advice, code reviews, and sharing experiences from my journey</p>
+              </div>
+
+              <div class="tech-item">
+                <div class="tech-icon">🚀</div>
+                <h3>Open Source</h3>
+                <p>Contributing to open-source projects, maintaining tools, or collaborating on community initiatives</p>
+              </div>
+
+              <div class="tech-item">
+                <div class="tech-icon">☕</div>
+                <h3>Coffee Chats</h3>
+                <p>Casual conversations about technology, culture, life in Berlin/Germany, or just networking</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Response Time Note -->
+          <div class="resume-block" style="background-color: var(--bg-secondary); border-left: 5px solid var(--secondary-color);">
+            <h3 style="color: var(--secondary-color); margin-bottom: 1rem;">⏱️ Response Time</h3>
+            <p style="margin-bottom: 0;">
+              I do my best to respond to all messages within <strong>24-48 hours</strong>. If you don't hear back from me, 
+              please feel free to send a follow-up—sometimes messages get lost in the digital void!
+            </p>
+          </div>
+
+          <!-- Call to Action -->
+          <div class="cta-section">
+            <h2>Ready to Connect?</h2>
+            <p>
+              Don't hesitate—whether it's a big idea or a small question, I'd love to hear from you. 
+              The best connections often start with a simple message.
+            </p>
+            <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 2rem; flex-wrap: wrap;">
+              <a href="mailto:barunavopal@outlook.com" class="btn btn-primary">📧 Send Email</a>
+              <a href="https://www.linkedin.com/in/barunavo-pal" target="_blank" class="btn btn-secondary">💼 Connect on LinkedIn</a>
+              <a href="https://github.com/barunavo" target="_blank" class="btn btn-outline">💻 Follow on GitHub</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Barunavo Pal</h3>
+        <p>Platform DevOps Engineer | Cloud Infrastructure Specialist</p>
+        <p>Berlin, Germany</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="resume.html">CV/Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="../blogs/index.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Connect</h4>
+        <ul class="footer-links">
+          <li><a href="https://www.linkedin.com/in/barunavo-pal" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/barunavo" target="_blank">GitHub</a></li>
+          <li><a href="https://medium.com/@pal.barunavo412" target="_blank">Medium</a></li>
+          <li><a href="mailto:barunavopal@outlook.com">Email</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Barunavo Pal. All rights reserved.</p>
+    </div>
   </footer>
+
+  <script src="../js/script.js"></script>
 </body>
 </html>

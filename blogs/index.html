@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Barunavo Pal's Blog - Thoughts on DevOps, Cloud, Technology, and Life">
+  <title>Blog | Barunavo Pal</title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="nav-brand">
+        <a href="../index.html">Barunavo Pal</a>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/about.html">About</a></li>
+        <li><a href="../pages/resume.html">CV</a></li>
+        <li><a href="../pages/projects.html">Projects</a></li>
+        <li><a href="../pages/techstack.html">Tech Stack</a></li>
+        <li><a href="index.html" class="active">Blog</a></li>
+        <li><a href="../pages/worldview.html">Worldview</a></li>
+        <li><a href="../pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section page-header">
+      <div class="container">
+        <h1 class="page-title">Blog</h1>
+        <p class="page-subtitle">Thoughts on DevOps, Cloud Architecture, Technology, and Life</p>
+      </div>
+    </section>
+
+    <section class="section blog-section">
+      <div class="container">
+        
+        <!-- Blog Categories/Filters -->
+        <div class="blog-filters">
+          <button class="filter-btn active" data-filter="all">All Posts</button>
+          <button class="filter-btn" data-filter="devops">DevOps</button>
+          <button class="filter-btn" data-filter="cloud">Cloud</button>
+          <button class="filter-btn" data-filter="technology">Technology</button>
+          <button class="filter-btn" data-filter="personal">Personal</button>
+          <button class="filter-btn" data-filter="culture">Culture</button>
+        </div>
+
+        <!-- Blog Posts Grid -->
+        <div class="blog-posts-grid">
+          
+          <!-- Blog Post 1 - Family -->
+          <article class="blog-post-card" data-category="personal">
+            <div class="post-image-placeholder">
+              <span>👨‍👩‍👦</span>
+            </div>
+            <div class="post-content">
+              <div class="post-meta">
+                <span class="post-category">Personal</span>
+                <span class="post-date">2023</span>
+              </div>
+              <h2 class="post-title">
+                <a href="blog-post-1.html">My Wonderful Family</a>
+              </h2>
+              <p class="post-excerpt">
+                Family is a special and essential part of our lives. It is a source of love, support, and happiness. 
+                Let me introduce you to the remarkable individuals who make up my family...
+              </p>
+              <div class="post-footer">
+                <a href="blog-post-1.html" class="read-more">Read More →</a>
+                <span class="reading-time">5 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Template for Future Blog Posts -->
+          <article class="blog-post-card" data-category="devops technology">
+            <div class="post-image-placeholder">
+              <span>🚀</span>
+            </div>
+            <div class="post-content">
+              <div class="post-meta">
+                <span class="post-category">DevOps</span>
+                <span class="post-date">Coming Soon</span>
+              </div>
+              <h2 class="post-title">
+                <a href="#">Building Scalable CI/CD Pipelines</a>
+              </h2>
+              <p class="post-excerpt">
+                Learn how to design and implement robust CI/CD pipelines that scale with your organization's needs. 
+                Best practices, common pitfalls, and real-world examples from production environments.
+              </p>
+              <div class="post-footer">
+                <a href="#" class="read-more">Coming Soon</a>
+                <span class="reading-time">8 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog-post-card" data-category="cloud technology">
+            <div class="post-image-placeholder">
+              <span>☁️</span>
+            </div>
+            <div class="post-content">
+              <div class="post-meta">
+                <span class="post-category">Cloud</span>
+                <span class="post-date">Coming Soon</span>
+              </div>
+              <h2 class="post-title">
+                <a href="#">Multi-Cloud Strategy: Myth vs Reality</a>
+              </h2>
+              <p class="post-excerpt">
+                Exploring the promises and challenges of multi-cloud architectures. When does it make sense, 
+                and when is it just adding complexity? Insights from managing infrastructure across AWS and Azure.
+              </p>
+              <div class="post-footer">
+                <a href="#" class="read-more">Coming Soon</a>
+                <span class="reading-time">10 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog-post-card" data-category="culture personal">
+            <div class="post-image-placeholder">
+              <span>🌍</span>
+            </div>
+            <div class="post-content">
+              <div class="post-meta">
+                <span class="post-category">Culture</span>
+                <span class="post-date">Coming Soon</span>
+              </div>
+              <h2 class="post-title">
+                <a href="#">From Alipurduar to Berlin: A Journey of Two Worlds</a>
+              </h2>
+              <p class="post-excerpt">
+                Reflections on cultural adaptation, identity, and what it means to carry your roots while growing 
+                new branches in a foreign land. A personal story of transition and transformation.
+              </p>
+              <div class="post-footer">
+                <a href="#" class="read-more">Coming Soon</a>
+                <span class="reading-time">7 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog-post-card" data-category="technology devops">
+            <div class="post-image-placeholder">
+              <span>🐳</span>
+            </div>
+            <div class="post-content">
+              <div class="post-meta">
+                <span class="post-category">Technology</span>
+                <span class="post-date">Coming Soon</span>
+              </div>
+              <h2 class="post-title">
+                <a href="#">Kubernetes in Production: Lessons Learned</a>
+              </h2>
+              <p class="post-excerpt">
+                After managing Kubernetes clusters serving millions of users, here are the hard-earned lessons 
+                about reliability, security, and operational excellence in production K8s environments.
+              </p>
+              <div class="post-footer">
+                <a href="#" class="read-more">Coming Soon</a>
+                <span class="reading-time">12 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog-post-card" data-category="technology">
+            <div class="post-image-placeholder">
+              <span>🔐</span>
+            </div>
+            <div class="post-content">
+              <div class="post-meta">
+                <span class="post-category">Technology</span>
+                <span class="post-date">Coming Soon</span>
+              </div>
+              <h2 class="post-title">
+                <a href="#">Infrastructure as Code: Beyond the Basics</a>
+              </h2>
+              <p class="post-excerpt">
+                Terraform, CloudFormation, and Ansible are tools—but IaC is a mindset. Diving deep into patterns, 
+                testing strategies, and organizational practices that make IaC truly effective.
+              </p>
+              <div class="post-footer">
+                <a href="#" class="read-more">Coming Soon</a>
+                <span class="reading-time">9 min read</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Newsletter Signup (Optional) -->
+        <div class="newsletter-section">
+          <h2>Stay Updated</h2>
+          <p>Get notified when I publish new articles about DevOps, Cloud, and Technology.</p>
+          <div class="newsletter-form">
+            <p><em>Newsletter coming soon! Follow me on <a href="https://medium.com/@pal.barunavo412" target="_blank">Medium</a> for updates.</em></p>
+          </div>
+        </div>
+
+        <!-- External Blog Links -->
+        <div class="external-blogs">
+          <h2>Find Me Writing On</h2>
+          <div class="external-links">
+            <a href="https://medium.com/@pal.barunavo412" target="_blank" class="external-blog-link">
+              <span class="icon">📝</span>
+              <span>Medium</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Barunavo Pal</h3>
+        <p>Platform DevOps Engineer | Cloud Infrastructure Specialist</p>
+        <p>Berlin, Germany</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="../pages/resume.html">CV/Resume</a></li>
+          <li><a href="../pages/projects.html">Projects</a></li>
+          <li><a href="index.html">Blog</a></li>
+          <li><a href="../pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Connect</h4>
+        <ul class="footer-links">
+          <li><a href="https://www.linkedin.com/in/barunavo-pal" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/barunavo" target="_blank">GitHub</a></li>
+          <li><a href="https://medium.com/@pal.barunavo412" target="_blank">Medium</a></li>
+          <li><a href="mailto:barunavopal@outlook.com">Email</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Barunavo Pal. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>

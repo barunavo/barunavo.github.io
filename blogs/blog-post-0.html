@@ -1,44 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blogs</title>
+  <meta name="description" content="Blog posts by Barunavo Pal - Technology, Culture, and Personal Reflections">
+  <title>Blog Posts | Barunavo Pal</title>
   <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Blog </h1>
-    <nav>
-      <ul>
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="nav-brand">
+        <a href="../index.html">Barunavo Pal</a>
+      </div>
+      <ul class="nav-menu">
         <li><a href="../index.html">Home</a></li>
-        <li><a href="../blogs/blog-post-0.html">Posts</a></li>
         <li><a href="../pages/about.html">About</a></li>
+        <li><a href="../pages/resume.html">CV</a></li>
+        <li><a href="../pages/projects.html">Projects</a></li>
+        <li><a href="../pages/techstack.html">Tech Stack</a></li>
+        <li><a href="index.html" class="active">Blog</a></li>
+        <li><a href="../pages/worldview.html">Worldview</a></li>
         <li><a href="../pages/contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <h2>Blogs:</h2>
-    <figure>
-      <img src="../images/crashlanding.jpg" alt="My Image" width="500" height="600"  align="middle">
-      <figcaption>Me and my wife at Jungfraujoch, Top of Europe, Switzerland.</figcaption>
-    </figure>
-    <section>
-      <article>
-        <h3><a href="./blog-post-1.html">1. Family 🤞🏽 🫰🏽 ❤️ </a></h3>
-        <p>My wonderful family!</p>
-      </article>
-      <article>
-        <h3><a href="./blog-post-2.html">2. How We Started Learning German After Coming to Germany</a></h3>
-        <p>meine Reise, Deutsch zu lernen :)</p>
-      </article>
+    <section class="section page-header">
+      <div class="container">
+        <h1 class="page-title">Blog Posts</h1>
+        <p class="page-subtitle">Personal reflections, experiences, and stories from my journey</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="resume-container">
+          <div class="resume-block" style="text-align: center;">
+            <figure style="margin: 2rem 0;">
+              <img src="../images/crashlanding.jpg" alt="Jungfraujoch Switzerland" style="max-width: 100%; height: auto; border-radius: 1rem; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
+              <figcaption style="margin-top: 1rem; color: var(--text-secondary); font-style: italic;">Exploring the Top of Europe, Jungfraujoch, Switzerland</figcaption>
+            </figure>
+          </div>
+
+          <h2 class="section-title">Recent Posts</h2>
+          
+          <div class="blog-posts-grid">
+            <article class="blog-post-card">
+              <div class="post-content">
+                <div class="post-meta">
+                  <span class="post-category">Personal</span>
+                  <span class="post-date">2023</span>
+                </div>
+                <h2 class="post-title">
+                  <a href="./blog-post-1.html">The Importance of Family</a>
+                </h2>
+                <p class="post-excerpt">
+                  Reflections on family, support systems, and the people who shape our journey. 
+                  Understanding the role of family in professional and personal growth.
+                </p>
+                <div class="post-footer">
+                  <a href="./blog-post-1.html" class="read-more">Read More →</a>
+                  <span class="reading-time">5 min read</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="blog-post-card">
+              <div class="post-content">
+                <div class="post-meta">
+                  <span class="post-category">Culture</span>
+                  <span class="post-date">2023</span>
+                </div>
+                <h2 class="post-title">
+                  <a href="./blog-post-2.html">Learning German in Germany: A Personal Journey</a>
+                </h2>
+                <p class="post-excerpt">
+                  The challenges and rewards of learning a new language while working full-time in a foreign country. 
+                  Practical insights and lessons from achieving B1 certification.
+                </p>
+                <div class="post-footer">
+                  <a href="./blog-post-2.html" class="read-more">Read More →</a>
+                  <span class="reading-time">7 min read</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div style="text-align: center; margin-top: 3rem;">
+            <a href="index.html" class="btn btn-outline">View All Posts</a>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2023 Barunavo Pal. All rights reserved.</p>
+  <footer class="main-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Barunavo Pal</h3>
+        <p>Platform DevOps Engineer | Cloud Infrastructure Specialist</p>
+        <p>Berlin, Germany</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="../pages/resume.html">CV/Resume</a></li>
+          <li><a href="../pages/projects.html">Projects</a></li>
+          <li><a href="index.html">Blog</a></li>
+          <li><a href="../pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Connect</h4>
+        <ul class="footer-links">
+          <li><a href="https://www.linkedin.com/in/barunavo-pal" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/barunavo" target="_blank">GitHub</a></li>
+          <li><a href="https://medium.com/@pal.barunavo412" target="_blank">Medium</a></li>
+          <li><a href="mailto:barunavopal@outlook.com">Email</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Barunavo Pal. All rights reserved.</p>
+    </div>
   </footer>
+
+  <script src="../js/script.js"></script>
 </body>
 </html>

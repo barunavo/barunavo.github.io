@@ -1,48 +1,181 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Barunavo Pal</title>
+  <meta name="description" content="Barunavo Pal - Platform DevOps Engineer | Cloud Infrastructure Specialist | Berlin, Germany">
+  <title>Barunavo Pal | DevOps Engineer & Technology Enthusiast</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h2>Welcome to the Personal Blogging site of Barunavo Pal</h2>
-    <nav>
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./blogs/blog-post-0.html">Posts</a></li>
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="nav-brand">
+        <a href="./index.html">Barunavo Pal</a>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="./index.html" class="active">Home</a></li>
         <li><a href="./pages/about.html">About</a></li>
+        <li><a href="./pages/resume.html">CV</a></li>
+        <li><a href="./pages/projects.html">Projects</a></li>
+        <li><a href="./pages/techstack.html">Tech Stack</a></li>
+        <li><a href="./blogs/index.html">Blog</a></li>
+        <li><a href="./pages/worldview.html">Worldview</a></li>
         <li><a href="./pages/contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Barunavo Pal</h1>
+        <h2 class="role">Platform DevOps Engineer</h2>
+        <p class="tagline">Building scalable cloud infrastructure & driving digital transformation at Allianz Technology SE</p>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">7+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">3</span>
+            <span class="stat-label">Degrees</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">∞</span>
+            <span class="stat-label">Passion</span>
+          </div>
+        </div>
+        <div class="cta-buttons">
+          <a href="./pages/resume.html" class="btn btn-primary">View CV</a>
+          <a href="./pages/projects.html" class="btn btn-secondary">My Work</a>
+          <a href="./pages/contact.html" class="btn btn-outline">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="./images/me.jpg" alt="Barunavo Pal" class="profile-image">
+      </div>
+    </div>
+  </section>
+
   <main>
-    <section>
-      <img src="./images/me.jpg" alt="My Image" width="500" height="600" style="border:5px solid black" align="right">
-      <h2>About Me</h2>
-      <p>In the vast tapestry of life, I am a Bengali hailing from the enchanting land of Alipurduar, nestled in the captivating state of West Bengal, India. An ardent explorer of flavors, I find solace and delight in the art of cooking, perpetually tantalizing my taste buds with culinary creations.</p>
-      <p>However, destiny has led me on a captivating journey to the vibrant city of Berlin, Germany. While I navigate the winding streets of this European metropolis, my heart remains intertwined with the vivid hues of my Indian heritage. Accompanying me on this adventure is my beloved wife, Sumana Saha, whose presence adds warmth and joy to each chapter of our lives</p>
-      <p>Beyond the kitchen and cultural explorations, I am a seasoned Software Engineer by profession. Equipped with a postgraduate engineering degree and an additional feather in my cap—a MBA—my multidimensional expertise empowers me to embrace both the realms of technology and business.</p>
-      <p>When the pages of work-life turn, I find solace in the world of words. The intriguing realm of detective stories beckons me, whispering tales of suspense, unraveling mysteries one page at a time. With each riveting story, my imagination soars, transcending the boundaries of reality.</p>
-      <p>Thus, my story is an amalgamation of diverse flavors, cultures, and intellectual pursuits. I strive to blend the spices of life, savoring each moment as I embark on this remarkable journey through the intricate tapestry of existence.</p>
+    <!-- Quick Bio -->
+    <section class="section bio-section">
+      <div class="container">
+        <h2 class="section-title">Hello! 👋</h2>
+        <p class="intro-text">I'm a Platform DevOps Engineer at <strong>Allianz Technology SE</strong> in Munich, currently based in <strong>Berlin, Germany</strong>. With a unique blend of technical expertise (B.Tech, M.Tech in Microelectronics & VLSI) and business acumen (MBA in Fintech), I bridge the gap between technology and business strategy.</p>
+        <p class="intro-text">Originally from Alipurduar, West Bengal, India, I bring a multicultural perspective to solving complex cloud infrastructure challenges. When I'm not architecting cloud solutions, you'll find me cooking, blogging, traveling, or watching cricket and football.</p>
+      </div>
     </section>
-    
-    <section>
-      <h2>Latest Posts</h2>
-      <article>
-        <h3>My wonderful family</h3>
-        <p>My wonderful family.</p>
-        <a href="./blogs/blog-post-1.html">Read more</a>
-      </article>
-      
+
+    <!-- Featured Sections Grid -->
+    <section class="section featured-sections">
+      <div class="container">
+        <div class="cards-grid">
+          
+          <!-- Projects Card -->
+          <div class="feature-card">
+            <div class="card-icon">🚀</div>
+            <h3>Projects & Open Source</h3>
+            <p>Personal hobby projects, open-source contributions, and technical experiments showcasing my passion for building innovative solutions.</p>
+            <a href="./pages/projects.html" class="card-link">Explore Projects →</a>
+          </div>
+
+          <!-- Tech Stack Card -->
+          <div class="feature-card">
+            <div class="card-icon">⚙️</div>
+            <h3>Tech Stack</h3>
+            <p>Technologies, tools, and platforms I work with daily - from cloud infrastructure to DevOps automation and everything in between.</p>
+            <a href="./pages/techstack.html" class="card-link">View Tech Stack →</a>
+          </div>
+
+          <!-- Blog Card -->
+          <div class="feature-card">
+            <div class="card-icon">✍️</div>
+            <h3>Blog & Writings</h3>
+            <p>Thoughts on technology, DevOps practices, cloud architecture, and personal experiences from my professional journey.</p>
+            <a href="./blogs/index.html" class="card-link">Read Articles →</a>
+          </div>
+
+          <!-- CV/Resume Card -->
+          <div class="feature-card">
+            <div class="card-icon">📄</div>
+            <h3>Professional CV</h3>
+            <p>Comprehensive overview of my professional experience, technical skills, education, and career achievements.</p>
+            <a href="./pages/resume.html" class="card-link">View Resume →</a>
+          </div>
+
+          <!-- Worldview Card -->
+          <div class="feature-card">
+            <div class="card-icon">🌍</div>
+            <h3>Worldview & Philosophy</h3>
+            <p>My perspectives on technology, society, culture, and the intersection of tradition and innovation in a globalized world.</p>
+            <a href="./pages/worldview.html" class="card-link">Read More →</a>
+          </div>
+
+          <!-- About Card -->
+          <div class="feature-card">
+            <div class="card-icon">👤</div>
+            <h3>About Me</h3>
+            <p>Learn more about my journey from West Bengal to Berlin, my family, hobbies, interests, and what drives me personally and professionally.</p>
+            <a href="./pages/about.html" class="card-link">Know Me Better →</a>
+          </div>
+
+        </div>
+      </div>
     </section>
+
+    <!-- Latest Blog Posts -->
+    <section class="section latest-posts">
+      <div class="container">
+        <h2 class="section-title">Latest from Blog</h2>
+        <div class="posts-grid">
+          <article class="post-card">
+            <h3>My Wonderful Family</h3>
+            <p class="post-excerpt">Family is a special and essential part of our lives. Meet the remarkable individuals who make up my family...</p>
+            <a href="./blogs/blog-post-1.html" class="post-link">Read more →</a>
+          </article>
+        </div>
+        <div class="view-all">
+          <a href="./blogs/index.html" class="btn btn-outline">View All Posts</a>
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <footer>
-    <p>&copy; 2023 Barunavo Pal. All rights reserved.</p>
+  <footer class="main-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Barunavo Pal</h3>
+        <p>Platform DevOps Engineer | Cloud Infrastructure Specialist</p>
+        <p>Berlin, Germany</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="./pages/resume.html">CV/Resume</a></li>
+          <li><a href="./pages/projects.html">Projects</a></li>
+          <li><a href="./blogs/index.html">Blog</a></li>
+          <li><a href="./pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Connect</h4>
+        <ul class="footer-links">
+          <li><a href="https://www.linkedin.com/in/barunavo-pal" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/barunavo" target="_blank">GitHub</a></li>
+          <li><a href="https://medium.com/@pal.barunavo412" target="_blank">Medium</a></li>
+          <li><a href="mailto:barunavopal@outlook.com">Email</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Barunavo Pal. All rights reserved.</p>
+    </div>
   </footer>
+
+  <script src="./js/script.js"></script>
 </body>
 </html>

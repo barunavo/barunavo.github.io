@@ -1,79 +1,288 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Me</title>
+  <meta name="description" content="About Barunavo Pal - Platform DevOps Engineer from West Bengal to Berlin">
+  <title>About Me | Barunavo Pal</title>
   <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
-  <header>
-    <h1>About Me</h1>
-    <nav>
-      <ul>
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="nav-brand">
+        <a href="../index.html">Barunavo Pal</a>
+      </div>
+      <ul class="nav-menu">
         <li><a href="../index.html">Home</a></li>
-        <li><a href="../blogs/blog-post-0.html">Posts</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="resume.html">CV</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="techstack.html">Tech Stack</a></li>
+        <li><a href="../blogs/index.html">Blog</a></li>
+        <li><a href="worldview.html">Worldview</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <h2>About Me - Barunavo Pal</h2>
-    <section>
-      <img src="../images/don.jpg" alt="My Image" width="500" height="600" style="border:5px solid black" align="right">
-      <p>Hello ! Hallo !  Bonjour ! Hola ! नमस्ते ! & হ্যালো ! This is Barunavo Pal and I'm originally from the beautiful town of Alipurduar in West Bengal, India.</p>
-    
-      <p>I have a strong educational background in engineering and finance. I completed my B.Tech in Electronics and Communication Engineering and went on to pursue my passion for Microelectronics and VLSI Technology, earning an M.Tech in that field. To complement my technical skills with business acumen, I further pursued an MBA in Fintech.</p>
-    
-      <p>Professionally, I am a Platform DevOps Engineer, currently working at Allianz Technology SE in Munich, Germany. It's an exciting journey working in a diverse and dynamic environment, where I get to apply my technical expertise and collaborate with talented individuals.</p>
-    
-      <p>I now reside in the vibrant city of Berlin, Germany, where I enjoy the blend of rich history and modern culture. I live here with my wonderful wife, Sumana Saha, who has been my constant support and inspiration.</p>
-    
-      <p>In my free time, I have a few hobbies that I'm passionate about. I love to express my thoughts through blogging, sharing my experiences and insights on various topics. Cooking is another one of my favorite pastimes; experimenting with new recipes brings me immense joy. And whenever possible, I indulge my wanderlust by traveling to different places and exploring new cultures.</p>
-    
-      <p>Sports have always been an integral part of my life. I am an avid fan of both cricket and football, and I never miss an opportunity to watch the matches and cheer for my favorite teams. Apart from being a spectator, I also enjoy playing badminton, which helps me stay active and fit.</p>
-    
-      <p>Thank you for visiting my personal website. Feel free to connect with me through my social media channels or drop me an email. I'm always open to meeting new people and exchanging ideas!</p>
-    
-      <p>Best regards,</p>
-      <p>Barunavo Pal</p>
-    
-      <h3>Education Qualification:</h3>
-      <ul>
-        <li>B.Tech in Electronics and Communication Engineering from Camellia School of Engineering and Technology, Barasat, Kolkata, India</li>
-        <li>M.Tech in Microelectronics and VLSI Technology from West Bengal University of Technology, Salt Lake, Kolkata, India</li>
-        <li>MBA in Fintech from Birla Institute of Technology and Science, Pilani, Rajasthan, India</li>
-      </ul>
-    
-      <h3>Profession</h3>
-      <p>Professionally I am a Public Cloud Platform - DevOps Engineer working in Allianz Technology SE, Munich, Germany</p>
-    
-      <h3>Current Residence</h3>
-      <p>Currently residing in Berlin, Germany</p>
-    
-      <h3>Family</h3>
-      <p>Living with wife, Sumana Saha</p>
-    
-      <h3>Hobbies</h3>
-      <ul>
-        <li>Writing Blogs</li>
-        <li>Cooking </li>
-        <li>Traveling</li>
-      </ul>
-    
-      <h3>Interests</h3>
-      <ul>
-        <li>Watching Cricket and Football</li>
-        <li>Playing Badminton</li>
-      </ul>
-    
+    <section class="section page-header">
+      <div class="container">
+        <h1 class="page-title">About Me</h1>
+        <p class="page-subtitle">From Alipurduar to Berlin - A Journey of Technology, Culture, and Growth</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="resume-container">
+          
+          <!-- Introduction -->
+          <div class="resume-block">
+            <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; align-items: center;">
+              <div>
+                <h2 class="resume-heading">Hello! हैलो! Hallo! Bonjour! Hola! নমস্ते! হ্যালো!</h2>
+                <p style="font-size: 1.125rem; line-height: 1.8;">
+                  I'm <strong>Barunavo Pal</strong>, a Platform DevOps Engineer at <strong>Allianz Technology SE</strong> in Munich, 
+                  currently based in the vibrant city of <strong>Berlin, Germany</strong>. Originally from the beautiful town of 
+                  <strong>Alipurduar in West Bengal, India</strong>, my journey has taken me across continents, cultures, and technologies.
+                </p>
+              </div>
+              <div style="text-align: center;">
+                <img src="../images/don.jpg" alt="Barunavo Pal" style="width: 100%; max-width: 300px; border-radius: 1rem; box-shadow: 0 10px 25px rgba(0,0,0,0.1); border: 4px solid #2563eb;">
+              </div>
+            </div>
+          </div>
+
+          <!-- Education Journey -->
+          <div class="resume-block">
+            <h2 class="resume-heading">🎓 Educational Background</h2>
+            <p>I have a strong educational foundation that blends technical depth with business acumen:</p>
+            
+            <div class="education-item">
+              <div class="education-header">
+                <div>
+                  <h3>MBA in Fintech</h3>
+                  <h4>Birla Institute of Technology and Science (BITS Pilani)</h4>
+                  <p class="location">📍 Pilani, Rajasthan, India</p>
+                </div>
+              </div>
+              <p class="education-description">
+                To complement my technical skills with business acumen, I pursued an MBA specializing in Financial Technology. 
+                This unique combination allows me to bridge the gap between technology and business strategy, understanding 
+                both the "how" and the "why" behind technological decisions.
+              </p>
+            </div>
+
+            <div class="education-item">
+              <div class="education-header">
+                <div>
+                  <h3>M.Tech in Microelectronics and VLSI Technology</h3>
+                  <h4>West Bengal University of Technology</h4>
+                  <p class="location">📍 Salt Lake, Kolkata, India</p>
+                </div>
+              </div>
+              <p class="education-description">
+                My passion for understanding systems at a deeper level led me to pursue advanced studies in Microelectronics 
+                and VLSI Technology. This gave me insights into how hardware and software integrate, forming the foundation 
+                for my systems thinking approach to infrastructure and DevOps.
+              </p>
+            </div>
+
+            <div class="education-item">
+              <div class="education-header">
+                <div>
+                  <h3>B.Tech in Electronics and Communication Engineering</h3>
+                  <h4>Camellia School of Engineering and Technology</h4>
+                  <p class="location">📍 Barasat, Kolkata, India</p>
+                </div>
+              </div>
+              <p class="education-description">
+                My engineering journey began with Electronics and Communication Engineering, where I developed a strong 
+                foundation in both hardware and software, signal processing, and communication systems. This comprehensive 
+                education sparked my interest in how technology systems work together.
+              </p>
+            </div>
+          </div>
+
+          <!-- Professional Life -->
+          <div class="resume-block">
+            <h2 class="resume-heading">💼 Professional Journey</h2>
+            <p>
+              Currently, I work as a <strong>Platform DevOps Engineer at Allianz Technology SE in Munich, Germany</strong>. 
+              It's an exciting role where I get to work in a diverse, dynamic environment, building and managing cloud infrastructure 
+              that serves millions of users. Every day brings new challenges and opportunities to apply my technical expertise 
+              while collaborating with talented individuals from around the world.
+            </p>
+            <p>
+              My career journey has taken me from software development at Infosys Technology Ltd. in Hyderabad, India, to 
+              the cutting edge of cloud infrastructure and DevOps in Europe. This transition has allowed me to grow not just 
+              technically, but also culturally and personally.
+            </p>
+          </div>
+
+          <!-- Life in Berlin -->
+          <div class="resume-block">
+            <h2 class="resume-heading">🏙️ Life in Berlin</h2>
+            <p>
+              I now reside in <strong>Berlin, Germany</strong>, a city that perfectly embodies the blend of history and modernity, 
+              tradition and innovation. The vibrant cultural scene, the tech ecosystem, and the international community make 
+              Berlin an ideal place for both personal and professional growth.
+            </p>
+            <p>
+              Living here with my wonderful wife, <strong>Sumana Saha</strong>, has been an adventure. She has been my constant 
+              support and inspiration throughout this journey. Together, we navigate the exciting challenge of building a life 
+              in a new country while staying connected to our roots.
+            </p>
+          </div>
+
+          <!-- Hobbies & Interests -->
+          <div class="resume-block">
+            <h2 class="resume-heading">🎯 Beyond Work</h2>
+            <p>
+              When I'm not architecting cloud solutions or optimizing CI/CD pipelines, I have several passions that keep me balanced:
+            </p>
+            
+            <div class="skills-grid" style="margin-top: 2rem;">
+              <div class="tech-item">
+                <div class="tech-icon">✍️</div>
+                <h3>Blogging & Writing</h3>
+                <p>
+                  I love expressing my thoughts through writing. Whether it's technical tutorials, personal reflections, 
+                  or cultural observations, blogging helps me process experiences and share insights with others.
+                </p>
+              </div>
+
+              <div class="tech-item">
+                <div class="tech-icon">🍳</div>
+                <h3>Cooking</h3>
+                <p>
+                  An ardent explorer of flavors! Cooking is my creative outlet. I love experimenting with new recipes, 
+                  especially blending Indian spices with European ingredients. The kitchen is my second laboratory.
+                </p>
+              </div>
+
+              <div class="tech-item">
+                <div class="tech-icon">✈️</div>
+                <h3>Traveling</h3>
+                <p>
+                  Exploring new places, experiencing different cultures, and meeting people from diverse backgrounds 
+                  enriches my perspective. Travel is education in its most exciting form.
+                </p>
+              </div>
+
+              <div class="tech-item">
+                <div class="tech-icon">🏏</div>
+                <h3>Cricket & Football</h3>
+                <p>
+                  I'm an avid fan of both cricket and football. There's nothing like the thrill of a close match, 
+                  whether it's an IPL game or a Bundesliga showdown. I never miss an opportunity to cheer for my teams!
+                </p>
+              </div>
+
+              <div class="tech-item">
+                <div class="tech-icon">🏸</div>
+                <h3>Badminton</h3>
+                <p>
+                  Apart from being a spectator, I love playing badminton. It keeps me active, fit, and provides a 
+                  great way to unwind after a long day of work.
+                </p>
+              </div>
+
+              <div class="tech-item">
+                <div class="tech-icon">📚</div>
+                <h3>Reading</h3>
+                <p>
+                  I find solace in the world of words, especially detective stories. The realm of mysteries and 
+                  suspense helps my imagination soar beyond the boundaries of code and terminals.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cultural Identity -->
+          <div class="resume-block">
+            <h2 class="resume-heading">🌏 Cultural Identity</h2>
+            <p>
+              In the vast tapestry of life, I am a <strong>Bengali hailing from Alipurduar</strong>, nestled in the 
+              captivating state of West Bengal, India. While I navigate the winding streets of this European metropolis, 
+              my heart remains intertwined with the vivid hues of my Indian heritage.
+            </p>
+            <p>
+              This dual identity is my strength. I bring an Eastern philosophical approach to Western pragmatism, 
+              creating a unique perspective in problem-solving and life itself. I've learned that you don't have to 
+              choose between cultures—you can be a synthesis of both, carrying your roots while growing new branches.
+            </p>
+          </div>
+
+          <!-- Personal Philosophy -->
+          <div class="resume-block" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+            <h2 style="color: white; border-bottom-color: white;">💭 My Story</h2>
+            <p style="color: rgba(255,255,255,0.95); font-size: 1.125rem; line-height: 1.9;">
+              My story is an amalgamation of diverse flavors, cultures, and intellectual pursuits. I strive to blend 
+              the spices of life, savoring each moment as I embark on this remarkable journey through the intricate 
+              tapestry of existence. From the serene landscapes of West Bengal to the bustling tech hubs of Europe, 
+              from microelectronics to cloud infrastructure, from curry to currywurst—every experience has shaped who I am today.
+            </p>
+            <p style="color: rgba(255,255,255,0.95); font-size: 1.125rem; line-height: 1.9;">
+              I believe in continuous learning, authentic connections, and the power of technology to solve meaningful 
+              problems. Whether it's optimizing a Kubernetes cluster or cooking a perfect biryani, I approach everything 
+              with curiosity, dedication, and a dash of humor.
+            </p>
+          </div>
+
+          <!-- Call to Action -->
+          <div class="cta-section">
+            <h2>Let's Connect!</h2>
+            <p>
+              Thank you for taking the time to learn about me. I'm always open to meeting new people, exchanging ideas, 
+              and exploring opportunities for collaboration. Whether you want to discuss DevOps, cloud architecture, 
+              culture, or just share a good recipe, feel free to reach out!
+            </p>
+            <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 2rem;">
+              <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+              <a href="resume.html" class="btn btn-secondary">View My CV</a>
+              <a href="worldview.html" class="btn btn-outline">My Worldview</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>&copy;  2023 Barunavo Pal. All rights reserved.</p>
+  <footer class="main-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Barunavo Pal</h3>
+        <p>Platform DevOps Engineer | Cloud Infrastructure Specialist</p>
+        <p>Berlin, Germany</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="resume.html">CV/Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="../blogs/index.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Connect</h4>
+        <ul class="footer-links">
+          <li><a href="https://www.linkedin.com/in/barunavo-pal" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/barunavo" target="_blank">GitHub</a></li>
+          <li><a href="https://medium.com/@pal.barunavo412" target="_blank">Medium</a></li>
+          <li><a href="mailto:barunavopal@outlook.com">Email</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Barunavo Pal. All rights reserved.</p>
+    </div>
   </footer>
+
+  <script src="../js/script.js"></script>
 </body>
 </html>
